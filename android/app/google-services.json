@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "668652429293",
+    "project_id": "zelvira-a92ab",
+    "storage_bucket": "zelvira-a92ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668652429293:android:c6963e44eb1a52903b11e4",
+        "android_client_info": {
+          "package_name": "com.zelvira.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76456849266-d9qrc1oi0sv31i5ui8tmrgu3953daq6k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zelvira.ecommerce",
+            "certificate_hash": "3fa8e96868af87acb3ee32596a002a5d4a156e08"
+          }
+        },
+        {
+          "client_id": "76456849266-1h2btpc4a06lcaoo9d7ku2g8vh9dperu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnZ-BbC0lzxYRoB5O5yTtboyqmixqOWnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

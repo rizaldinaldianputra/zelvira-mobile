@@ -1,0 +1,6 @@
+@echo off
+echo Mengambil IP Address lokal...
+dart update_ip.dart
+echo.
+echo Menjalankan Flutter App...
+flutter run
