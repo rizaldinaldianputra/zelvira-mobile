@@ -18,17 +18,17 @@ class UrlUtils {
     if (cleanStorageUrl.contains('storage.zelvira.my.id')) {
       cleanStorageUrl = cleanStorageUrl.replaceAll(
         'storage.zelvira.my.id',
-        'minio.zelvira.my.id',
+        's3.zelvira.co.id',
       );
     } else if (cleanStorageUrl.contains('storage.zelvira.my.id')) {
       cleanStorageUrl = cleanStorageUrl.replaceAll(
         'storage.zelvira.my.id',
-        'minio.zelvira.my.id',
+        's3.zelvira.co.id',
       );
-    } else if (cleanStorageUrl.contains('minio.zelvira.my.id')) {
+    } else if (cleanStorageUrl.contains('s3.zelvira.co.id')) {
       cleanStorageUrl = cleanStorageUrl.replaceAll(
-        'minio.zelvira.my.id',
-        'minio.zelvira.my.id',
+        's3.zelvira.co.id',
+        's3.zelvira.co.id',
       );
     }
 
@@ -37,7 +37,7 @@ class UrlUtils {
       'storage.zelvira.my.id:9000',
       'storage.zelvira.my.id',
       'storage.zelvira.my.id',
-      'minio.zelvira.my.id',
+      's3.zelvira.co.id',
       'zelixa-minio:9000',
       'zelvira-minio:9000',
       'minio:9000',

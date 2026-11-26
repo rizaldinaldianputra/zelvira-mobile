@@ -11,8 +11,8 @@ services:
     env_file:
       - .env
     environment:
-      - BASE_URL=${BASE_URL:-https://api.zelvira.my.id}
-      - STORAGE_URL=${STORAGE_URL:-https://minio.zelvira.my.id}
+      - BASE_URL=${BASE_URL:-https://api.zelvira.co.id}
+      - STORAGE_URL=${STORAGE_URL:-https://s3.zelvira.co.id}
     networks:
       - zelvira-mobile-network
 

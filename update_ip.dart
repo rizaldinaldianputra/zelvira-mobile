@@ -45,10 +45,10 @@ void main() async {
 import 'package:flutter/foundation.dart';
 
 const String baseUrl = kReleaseMode
-    ? 'https://api.zelvira.my.id'
+    ? 'https://api.zelvira.co.id'
     : 'http://$localIp:8081';
 const String storageUrl = kReleaseMode
-    ? 'https://minio.zelvira.my.id'
+    ? 'https://s3.zelvira.co.id'
     : 'http://$localIp:9000';
 ''';
       await file.writeAsString(content);

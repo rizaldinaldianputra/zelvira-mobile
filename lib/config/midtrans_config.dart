@@ -6,7 +6,7 @@ class AppMidtransConfig {
   /// Midtrans SDK automatically switches to Production mode when clientKey lacks 'SB-'.
   static const String clientKey = 'Mid-client-DDoZuhWWIzZo_1js';
   static const String merchantId = 'G404512774';
-  static const String merchantBaseUrl = 'https://api.zelvira.my.id/';
+  static const String merchantBaseUrl = 'https://api.zelvira.co.id/';
 
   /// Generates the redirect URL for Snap based on the current environment.
   static String getSnapUrl(String token) {
